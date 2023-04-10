@@ -11,7 +11,7 @@ const FeaturedJobs = ({ handleJobShow, showAllJobs }) => {
     }
 
     return (
-        <div className='text-center mt-32'>
+        <div className='text-center my-32 '>
 
             <h1 className='text-5xl font-bold my-4'>Featured Jobs</h1>
             <p className='text-gray-500'>Explore thousands of job opportunities with all the information you need. Its your future</p>

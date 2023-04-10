@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import JobCategories from '../JobCategories/JobCategories';
 import Banner from '../Banner/Banner';
 import { useLoaderData } from 'react-router-dom';
@@ -6,7 +6,14 @@ import FeaturedJobs from '../FeaturedJobs/FeaturedJobs';
 
 const Home = () => {
 
-    const categories = useLoaderData()
+    const tempcategories = useLoaderData();
+
+    const [categories, setCategories] = useState([]);
+    console.log(categories);
+
+    useEffect(() =>{
+        tempcategories && setCategories(tempcategories)
+    }, [tempcategories])
 
     const [showAllJobs, setShowAllJobs] = useState(false);
     

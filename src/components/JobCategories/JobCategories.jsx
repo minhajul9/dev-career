@@ -2,6 +2,7 @@ import React from 'react';
 import Category from '../Category/Category';
 
 const JobCategories = ({ categories }) => {
+    console.log(categories);
     return (
         <div className='mt-24'>
             <h2 className='text-center text-5xl font-bold my-4'>Job Category List</h2>
