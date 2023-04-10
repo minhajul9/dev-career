@@ -8,7 +8,7 @@ const JobCategories = ({ categories }) => {
 
             <p className='text-center text-gray-500'>Explore thousands of job opportunities with all the information you need. Its your future</p>
 
-            <div className='flex justify-center md:justify-between md:flex-nowrap flex-wrap md:space-x-4 space-y-4 my-8'>
+            <div className='flex justify-center md:justify-between md:flex-nowrap flex-wrap md:space-x-4 space-y-4 md:space-y-0 my-8'>
 
                 {
                     categories.map(category => <Category

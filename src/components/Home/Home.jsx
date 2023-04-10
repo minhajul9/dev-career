@@ -1,11 +1,15 @@
-import React from 'react';
+import React, { useState } from 'react';
 import JobCategories from '../JobCategories/JobCategories';
 import Banner from '../Banner/Banner';
 import { useLoaderData } from 'react-router-dom';
+import FeaturedJobs from '../FeaturedJobs/FeaturedJobs';
 
 const Home = () => {
 
     const categories = useLoaderData()
+
+    const [showAllJobs, setShowAllJobs] = useState(false);
+    
     
 
     return (
@@ -14,6 +18,7 @@ const Home = () => {
             <JobCategories
                 categories={categories}
             ></JobCategories>
+            <FeaturedJobs></FeaturedJobs>
         </div>
     );
 };
