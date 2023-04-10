@@ -4,6 +4,7 @@
         "job_title": "Senior Software Engineer",
         "company": "Netflix",
         "location": "Los Gatos, CA",
+        "job_type" : ["Remote",  "Full-Time"],
         "salary": "$160,000 - $200,000",
         "description": "We are looking for a talented and experienced software engineer to help us build the next generation of our streaming platform.",
         "requirements": "Bachelor's degree in computer science or related field, 8+ years of experience in software development, proficiency in Java or Python.",
@@ -15,6 +16,7 @@
         "job_title": "Product Manager",
         "company": "Google",
         "location": "Mountain View, CA",
+        "job_type" : ["Remote", "On-Site", "Full-Time", "Part-Time"],
         "salary": "$130,000 - $160,000",
         "description": "We are seeking a highly motivated product manager to help us define and execute our product strategy.",
         "requirements": "Bachelor's degree in computer science or related field, 5+ years of experience in product management, excellent communication and leadership skills.",
@@ -26,17 +28,19 @@
         "job_title": "Software Engineer",
         "company": "Tesla",
         "location": "Palo Alto, CA",
+        "job_type" : ["Remote", "On-Site", "Full-Time"],
         "salary": "$120,000 - $150,000",
         "description": "We are seeking a talented software engineer to join our team and help develop cutting-edge electric vehicles.",
         "requirements": "Bachelor's degree in computer science or related field, 5+ years of experience in software development, proficiency in C++ or Python.",
         "apply_url": "https://www.tesla.com/careers",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Tesla_Motors.svg/1200px-Tesla_Motors.svg.png"
+        "image_url": "./All Images/tesla-9 1.png"
     },
     {
         "id": 4,
         "job_title": "Senior UX Designer",
         "company": "Airbnb",
         "location": "San Francisco, CA",
+        "job_type" : [ "On-Site", "Full-Time"],
         "salary": "$140,000 - $180,000",
         "description": "We are looking for a talented and experienced UX designer to help us create a world-class booking experience.",
         "requirements": "Bachelor's degree in design or related field, 8+ years of experience in UX design, proficiency in Sketch, Figma, or Adobe Creative Suite.",
@@ -48,21 +52,23 @@
         "job_title": "Backend Developer",
         "company": "CareerHub",
         "location": "New York, NY",
+        "job_type" : ["Remote", "On-Site", "Full-Time"],
         "salary": "$100,000 - $130,000",
         "description": "We are seeking a talented and experienced UX designer to help us create a world-class booking experience.",
         "requirements": "Bachelor's degree in design or related field, 8+ years of experience in UX design, proficiency in Sketch, Figma, or Adobe Creative Suite.",
         "apply_url": "https://careers.airbnb.com/",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Airbnb_Logo_B%C3%A9lo.svg/1200px-Airbnb_Logo_B%C3%A9lo.svg.png"
+        "image_url": "./All Images/CareerHub.png"
     },
     {
         "id": 6,
         "job_title": "Frontend Developer",
         "company": "Amazon",
         "location": "New York, NY",
+        "job_type" : ["Remote",  "Part-Time"],
         "salary": "$100,000 - $130,000",
         "description": "We are seeking a talented and experienced Frontend Developer to help us efficient and simple user interface.",
         "requirements": "Bachelor's degree in design or related field, 8+ years of experience in ReactJS, NextJs, Figma, or Adobe Creative Suite.",
         "apply_url": "https://careers.airbnb.com/",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Airbnb_Logo_B%C3%A9lo.svg/1200px-Airbnb_Logo_B%C3%A9lo.svg.png"
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg"
     }
 ]

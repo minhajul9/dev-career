@@ -10,7 +10,7 @@ const Home = () => {
 
     const [showAllJobs, setShowAllJobs] = useState(false);
     
-    
+    const handleJobShow = () => setShowAllJobs(!showAllJobs)
 
     return (
         <div>
@@ -18,7 +18,10 @@ const Home = () => {
             <JobCategories
                 categories={categories}
             ></JobCategories>
-            <FeaturedJobs></FeaturedJobs>
+            <FeaturedJobs 
+                handleJobShow = {handleJobShow}
+                showAllJobs={showAllJobs}
+            ></FeaturedJobs>
         </div>
     );
 };
