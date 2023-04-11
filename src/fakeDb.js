@@ -1,6 +1,11 @@
 const getData = () => {
    let data =  localStorage.getItem('applied-jobs');
-   return JSON.parse(data)
+   if(data){
+    return JSON.parse(data)
+   }
+   else{
+    return []
+   }
 }
 
 const setData = data => {
