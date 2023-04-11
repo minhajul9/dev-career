@@ -1,6 +1,7 @@
 import React, { createContext } from 'react';
 import { Outlet, useLoaderData } from 'react-router-dom';
 import Header from '../Header/Header';
+import Footer from '../Footer/Footer';
 
 
 export const FeaturedJobsContext = createContext([])
@@ -16,6 +17,7 @@ const Layout = () => {
                 <Header></Header>
                 <Outlet></Outlet>
             </div>
+            <Footer></Footer>
         </FeaturedJobsContext.Provider>
     );
 };
