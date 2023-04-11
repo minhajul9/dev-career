@@ -15,7 +15,7 @@ const router = createBrowserRouter([
     path: '/',
     element: <Layout></Layout>,
     errorElement: <ErrorPage />,
-    loader: () => fetch('featuredJobs.json'),
+    loader: () => fetch('/featuredJobs.json'),
     children: [
       {
         path: '/',

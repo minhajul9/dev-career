@@ -31,6 +31,10 @@ const Statistics = () => {
         {
             serial: 'Assignment-7',
             mark: 60
+        },
+        {
+            serial: 'Assignment-8',
+            mark: 60
         }
     ]
     return (
