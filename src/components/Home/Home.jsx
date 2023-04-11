@@ -6,15 +6,19 @@ import FeaturedJobs from '../FeaturedJobs/FeaturedJobs';
 
 const Home = () => {
 
-    const tempcategories = useLoaderData();
+    const tempCategories = useLoaderData();
+    console.log(tempCategories);
 
     const [categories, setCategories] = useState([]);
-    console.log(categories);
+    
 
     useEffect(() =>{
-        tempcategories && setCategories(tempcategories)
-    }, [tempcategories])
+        fetch('categories.json')
+        .then(res => res.json())
+        .then(data => setCategories(data))
+    }, [])
 
+    console.log(categories);
     const [showAllJobs, setShowAllJobs] = useState(false);
     
     const handleJobShow = () => setShowAllJobs(!showAllJobs)

@@ -21,7 +21,9 @@ const FeaturedJobs = ({ handleJobShow, showAllJobs }) => {
                     featuredJobs.map(job => <Job
                         key={job.id}
                         job={job}
-                    ></Job>)
+                    >
+                        flex-col
+                    </Job>)
                 }
             </div>
             <button onClick={handleJobShow} className='btn-background py-4 px-5 rounded text-white font-bold mx-auto text-lg'>{showAllJobs ? 'See Less' : 'See All Jobs'}</button>

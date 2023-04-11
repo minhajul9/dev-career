@@ -13,3 +13,7 @@
 .banner img{
     max-width: 820px;
 }
+
+.background-image{
+    background-image: url('All Images/Vector-1.png');
+}
